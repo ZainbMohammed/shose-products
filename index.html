@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>shose</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#"><img src="./images/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h2>addidas 2024</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque suscipit fugit nisi perferendis dicta iusto nobis, voluptates explicabo quam necessitatibus!</p>
+                <a href="#">All Products</a>
+            </div>
+            <div class="image">
+                <img id="main-image" src="./images/11.jpg">
+            </div>
+        </div>
+        <div class="icons">
+            <img onclick="changeImage(this.src)" src="./images/11.jpg">
+            <img onclick="changeImage(this.src)" src="./images/22.jpg">
+            <img onclick="changeImage(this.src)" src="./images/33.jpg">
+            <img onclick="changeImage(this.src)" src="./images/44.jpg">
+        </div>
+        <div class="footer">
+            <p>© 2024 Zainab Mohamed</p>
+        </div>
+    </div>
+    <script>
+        function changeImage(source){
+            document.getElementById('main-image').src = source;
+        }
+    </script>
+</body>
+</html>
