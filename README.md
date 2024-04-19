@@ -4,5 +4,4 @@
 - click on shoese in below to displau it.
 - Using HTML - CSS - JS.
 
-
 ![Home Page](shose.png)
