@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>shose</title>
+    <title>shoes</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <a href="#"><img src="./images/logo.png" class="logo"></a>
+            <a href="#"><img src="./images/logo.png" class="logo" alt="Logo"></a>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Products</a></li>
@@ -20,26 +20,26 @@
         </header>
         <div class="content">
             <div class="text">
-                <h2>addidas 2024</h2>
+                <h2>Adidas 2024</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque suscipit fugit nisi perferendis dicta iusto nobis, voluptates explicabo quam necessitatibus!</p>
                 <a href="#">All Products</a>
             </div>
             <div class="image">
-                <img id="main-image" src="./images/11.jpg">
+                <img id="main-image" src="./images/11.jpg" alt="Main Shoe">
             </div>
         </div>
         <div class="icons">
-            <img onclick="changeImage(this.src)" src="./images/11.jpg">
-            <img onclick="changeImage(this.src)" src="./images/22.jpg">
-            <img onclick="changeImage(this.src)" src="./images/33.jpg">
-            <img onclick="changeImage(this.src)" src="./images/44.jpg">
+            <img onclick="changeImage(this.src)" src="./images/11.jpg" alt="Image 1">
+            <img onclick="changeImage(this.src)" src="./images/22.jpg" alt="Image 2">
+            <img onclick="changeImage(this.src)" src="./images/33.jpg" alt="Image 3">
+            <img onclick="changeImage(this.src)" src="./images/44.jpg" alt="Image 4">
         </div>
-        <div class="footer">
-            <p>© 2023 Zainab Mohamed</p>
-        </div>
+        <footer class="footer">
+            <p>&copy; 2023 Zainab Mohamed</p>
+        </footer>
     </div>
     <script>
-        function changeImage(source){
+        function changeImage(source) {
             document.getElementById('main-image').src = source;
         }
     </script>
